@@ -1,0 +1,7 @@
+﻿Default  VS 2015 Cmd Switch:
+
+/resetaddin StackoverflowExceptionAssistant.Connect
+
+Experimental Instance:
+
+/rootsuffix Exp

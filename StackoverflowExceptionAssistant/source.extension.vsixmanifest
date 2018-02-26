@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="AFD55CB0-4DD9-43A7-9AC6-E6D089CFBB8F">
+    <Name>Stackoverflow Exception Assistant</Name>
+    <Author>Jeremy Lecky-Thompson</Author>
+    <Version>1.0.0</Version>
+    <Description xml:space="preserve">The Stackoverflow Exception Assistant tweaks exception messages and finds solutions on Stackoverflow inside of Visual Studio!
+
+It reduces the inconvenience of searching the internet for solutions to exceptions you're encountering.
+</Description>
+    <Locale>1033</Locale>
+    <MoreInfoUrl>http://JeremyThompson.net/Rocks/visual-studio-stackoverflow-exception-assistant-extension</MoreInfoUrl>
+    <License>License.txt</License>
+    <Icon>Icon.png</Icon>
+    <PreviewImage>Screenshot.png</PreviewImage>
+    <InstalledByMsi>false</InstalledByMsi>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSLS</Edition>
+        <Edition>IntegratedShell</Edition>
+      </VisualStudio>
+      <VisualStudio Version="11.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSLS</Edition>
+        <Edition>IntegratedShell</Edition>
+      </VisualStudio>
+      <VisualStudio Version="12.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSLS</Edition>
+        <Edition>IntegratedShell</Edition>
+      </VisualStudio>
+      <VisualStudio Version="13.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSLS</Edition>
+        <Edition>IntegratedShell</Edition>
+      </VisualStudio>
+      <VisualStudio Version="14.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSLS</Edition>
+        <Edition>IntegratedShell</Edition>
+      </VisualStudio>
+      <VisualStudio Version="15.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+        <Edition>VSLS</Edition>
+        <Edition>IntegratedShell</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="1.0" MaxVersion="4.6" />
+  </Identifier>
+  <References>
+    <Reference Id="Microsoft.VisualStudio.MPF" MinVersion="10.0">
+      <Name>Visual Studio MPF</Name>
+    </Reference>
+  </References>
+  <Content>
+    <VsPackage>|%CurrentProject%;PkgdefProjectOutputGroup|</VsPackage>
+  </Content>
+</Vsix>

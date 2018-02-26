@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StackoverflowExceptionAssistant</name>
+    </assembly>
+    <members>
+        <member name="T:JeremyThompsonLabs.StackoverflowExceptionAssistant.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:JeremyThompsonLabs.StackoverflowExceptionAssistant.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:JeremyThompsonLabs.StackoverflowExceptionAssistant.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:JeremyThompsonLabs.StackoverflowExceptionAssistant.Properties.Resources.Package">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="T:JeremyThompsonLabs.StackoverflowExceptionAssistant.StackoverflowExceptionAssistantPackage">
+             <summary>
+             This is the class that implements the package exposed by this assembly.
+            
+             The minimum requirement for a class to be considered a valid package for Visual Studio
+             is to implement the IVsPackage interface and register itself with the shell.
+             This package uses helper classes defined inside the Managed Package Framework (MPF)
+             to do it: it derives from the Package class that provides the implementation of the 
+             IVsPackage interface and uses the registration attributes defined in the framework to 
+             register itself and its components with the shell.
+             </summary>
+        </member>
+        <member name="M:JeremyThompsonLabs.StackoverflowExceptionAssistant.StackoverflowExceptionAssistantPackage.#ctor">
+            <summary>
+            Default constructor of the package.
+            Inside this method you can place any initialization code that does not require 
+            any Visual Studio service because at this point the package object is created but 
+            not sited yet inside Visual Studio environment. The place to do all the other 
+            initialization is the Initialize method.
+            </summary>
+        </member>
+        <member name="M:JeremyThompsonLabs.StackoverflowExceptionAssistant.StackoverflowExceptionAssistantPackage.Initialize">
+            <summary>
+            Initialization of the package; this method is called right after the package is sited, so this is the place
+            where you can put all the initilaization code that rely on services provided by VisualStudio.
+            </summary>
+        </member>
+        <member name="M:JeremyThompsonLabs.StackoverflowExceptionAssistant.StackoverflowExceptionAssistantPackage.StandardExceptionAssistant(System.Object,System.EventArgs)">
+            <summary>
+            This function is the callback used to execute a command when the a menu item is clicked.
+            See the Initialize method to see how the menu item is associated to this function using
+            the OleMenuCommandService service and the MenuCommand class.
+            </summary>
+        </member>
+        <member name="F:StackoverflowExceptionAssistant.frmMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:StackoverflowExceptionAssistant.frmMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:StackoverflowExceptionAssistant.frmMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>
