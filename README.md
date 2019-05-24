@@ -7,4 +7,5 @@ I finally got around to starting it. Very much WIP.
 NOTE: In order to trap exceptions you MUST turn off the Standard Exception Assistant.
 
 
-https://i.stack.imgur.com/yIUY4.png
+<IMG src=https://i.stack.imgur.com/yIUY4.png></IMG>
+
